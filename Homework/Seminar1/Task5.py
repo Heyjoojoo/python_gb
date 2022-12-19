@@ -18,5 +18,5 @@ y1 = int(input("Введите y для a: "))
 x2 = int(input("Введите x для b: "))
 y2 = int(input("Введите y для b: "))
 
-s = ((x2-x1)*(x2-x1)+ (y2-y1)*(y2-y1))**0.5
+s = ((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1))**0.5
 print(round(s, 2))

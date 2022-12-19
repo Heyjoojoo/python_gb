@@ -2,4 +2,4 @@
 
 number = int(input("Введите целое число: "))
 for degree in range(number):
-    print((-3)**degree)
+    print((-3)**degree, end=', ')
